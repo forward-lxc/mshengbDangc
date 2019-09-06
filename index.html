@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <title>中国民生银行</title>
+    <!-- <script src="http://res2.wx.qq.com/open/js/jweixin-1.4.0.js"></script>    -->
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script> 
+    <script type="text/javascript"> 
+      !function (e,t) {function n(){var n=l.getBoundingClientRect().width;t=t||540,n>t&&(n=t);var i=100*n/e;r.innerHTML="html{font-size:"+i+"px;}"}var i,d=document,o=window,l=d.documentElement,r=document.createElement("style");if(l.firstElementChild)l.firstElementChild.appendChild(r);else{var a=d.createElement("div");a.appendChild(r),d.write(a.innerHTML),a=null}n(),o.addEventListener("resize",function(){clearTimeout(i),i=setTimeout(n,300)},!1),o.addEventListener("pageshow",function(e){e.persisted&&(clearTimeout(i),i=setTimeout(n,300))},!1),"complete"===d.readyState?d.body.style.fontSize="16px":d.addEventListener("DOMContentLoaded",function(e){d.body.style.fontSize="16px"},!1)}(750,750);
+    </script>  
+    <style>
+       @font-face {
+        font-family: "HYWenHei";  
+        src: url("./static/HYWenHei.ttf");  
+      } 
+       html{
+        font-family: HYWenHei!important;
+      } 
+    </style>
+  </head>
+  <body>  
+    <div id="app">
+    	<router-view></router-view>
+    </div> 
+  </body>
+</html>
